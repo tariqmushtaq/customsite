@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [`gatsby-plugin-netlify-cms`],	
+  resolve: `gatsby-plugin-netlify-cms`,
+  options: {
+    enableIdentityWidget: false,
+  }
+  
+  
 }
